@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 2em;
+}
+.Container1{
+    margin: 0 auto;
+    max-width: 900px;
+}
+h1, h2, h3{
+
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: auto;
+
+}
+h2{
+    
+    background-color:#4fbde9;
+
+}
+
+/* Here is the code from the navigation var */
+
+nav ul {
+    display: flex;
+    border-radius: 10px;
+}
+nav ul li {
+    flex: 1 1 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #420039;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+header, footer{
+    background-color: #BF1363;
+    padding: .75rem;
+    margin: 0 auto;
+    text-align: center;  
+}
+#outputDiv{
+ 
+    font-size: 14px;
+}
+main {
+    padding: 5px;
+    margin: 0 auto;
+    display: grid;
+    font-size: 0.8rem;
+   
+}
+
+img{
+    margin: 5px 5px 5px 5px;
+    border-style: solid;
+    width: 90%;
+    height: auto;
+}
+p{
+    margin: 2px 2px;
+}
+a {
+    margin: 0px 10px;
+}
+section{
+        margin: 1px;
+        background-color: #bfe8f8;
+        text-align: center;
+}
