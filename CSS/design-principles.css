@@ -15,29 +15,33 @@ h1, h2, h3{
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   margin: auto;
+  color: white;
+  font-size: 20px;
 
 }
 h2{
     
-    background-color:#4fbde9;
+    background-color:#E07BE0;
 
 }
 
 /* Here is the code from the navigation var */
 
 nav ul {
-    display: flex;
+    display: grid;
     border-radius: 10px;
+    
 }
 nav ul li {
     flex: 1 1 100%;
+    
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #420039;
+    background-color: #E07BE0;
   }
   
   li {
@@ -63,6 +67,10 @@ header, footer{
     margin: 0 auto;
     text-align: center;  
 }
+#end{
+    text-align: center;  
+}  
+
 #outputDiv{
  
     font-size: 14px;
@@ -72,23 +80,34 @@ main {
     margin: 0 auto;
     display: grid;
     font-size: 0.8rem;
+    
    
 }
-
+.sitelogo{
+    width: 100px;
+    margin: none;
+    border-style: none;
+    box-shadow: none;
+    float: left;
+}
 img{
     margin: 5px 5px 5px 5px;
     border-style: solid;
     width: 90%;
     height: auto;
 }
+
+
 p{
-    margin: 2px 2px;
+    margin: 50px;
+    text-align: justify;
+    font-size: 20px;
 }
 a {
     margin: 0px 10px;
 }
 section{
         margin: 1px;
-        background-color: #bfe8f8;
+        background-color: #DCCCFF;
         text-align: center;
 }

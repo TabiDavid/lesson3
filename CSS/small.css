@@ -4,4 +4,9 @@ main {
 	grid-template-columns: 1fr;
    
 }
+nav ul {
+	grid-template-columns: 1fr;
+   
+
+}
 }
